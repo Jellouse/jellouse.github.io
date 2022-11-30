@@ -51,6 +51,14 @@ body {
     #header-headline{
         margin:40px 20px;
     }
+
+    .portfolioimage{
+
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -104,16 +112,15 @@ body {
     #menubutton{
         width: 100vw;
     }
+
+    .portfolioimage{
+
+        width: 100%;
+        object-fit: cover;
+    
+    }
 }
 
-
-.portfolioimage{
-
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-
-}
 
 p{
     display: block;
