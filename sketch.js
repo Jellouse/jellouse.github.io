@@ -22,9 +22,11 @@ function setup() {
   video.size(64, 64);
   asciiDiv = createDiv();
   video.hide();
-  video.loop(); // set the video to loop and start playing
 }
 
+function mouseMoved() {
+  video.loop(); // set the video to loop and start playing
+}
 
 function draw() {
   video.loadPixels();
