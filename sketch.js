@@ -18,7 +18,7 @@ let asciiDiv;
 
 function setup() {
   noCanvas();
-  video = createVideo(['https://arena-attachments.s3.amazonaws.com/23470546/23dafc381d18a69b191706873f5621c8.mov']);
+  video = createVideo(['Dance.mov']);
   video.size(64, 64);
   asciiDiv = createDiv();
   video.hide();
