@@ -1,30 +1,18 @@
-// Image to ASCII
-// The Coding Train / Daniel Shiffman
-// https://thecodingtrain.com/CodingChallenges/166-ascii-image.html
-// https://youtu.be/55iwMYv8tGI
-
-// ASCII video: https://editor.p5js.org/codingtrain/sketches/KTVfEcpWx
-// ASCII image canvas: https://editor.p5js.org/codingtrain/sketches/r4ApYWpH_
-// ASCII image DOM: https://editor.p5js.org/codingtrain/sketches/ytK7J7d5j
-// ASCII image source text: https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP
-// ASCII image weather API: https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4
-
 const density = "Ñ@#W$9876543210?!abc;:+=-,._   ";
-// const density = '       .:-i|=+%O#@'
-// const density = '        .:░▒▓█';
 
 let video;
 let asciiDiv;
 
 function setup() {
   noCanvas();
-  video = createVideo(['Dance.mov']);
-  video.size(64, 64);
+  // Access the hidden video element
+  video = select('#background-video');
+  // Start video playback automatically
+  video.play();
   asciiDiv = createDiv();
-  video.hide();
 }
 
-function mouseMoved() {
+function mousePressed() {
   video.loop(); // set the video to loop and start playing
 }
 
