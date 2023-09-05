@@ -24,7 +24,7 @@ function setup() {
   video.hide();
 }
 
-function mousePressed() {
+function setup() {
   video.loop(); // set the video to loop and start playing
 }
 

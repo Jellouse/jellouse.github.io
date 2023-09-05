@@ -1,8 +1,13 @@
+@font-face {
+  font-family: unifont;
+  src: url(Unifont-404.woff);
+}
+
 html, body {
   margin: 0;
   padding: 0;
   background-color: #000;
-  font-family: 'Unifont';
+  font-family: 'unifont';
   color: #FFF;
   font-size:25px;
     line-height: 98%;
