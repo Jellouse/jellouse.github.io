@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Unifont';
+  color: #FFF;
+  font-size:25px;
+    line-height: 98%;
+}
+
+canvas {
+  display: block;
+}
